@@ -1,0 +1,112 @@
+@media only screen and (max-width: 576px) {
+    .ctc-card {
+        padding-top: 0.75em;
+        padding-bottom: 0.75em;
+    }
+
+    .ctc-h1-heading {
+        font-size: 1.2em;
+    }
+
+    .ctc-description {
+        font-size: 1.1em;
+    }
+
+    .ctc-form-label {
+        font-size: 1em;
+    }
+
+    .ctc-button {
+        font-size: 0.8em;
+    }
+
+    .ctc-developer-note {
+        font-size: 0.8em;
+    }
+
+}
+
+@media only screen and (min-width: 576px) {
+    .ctc-card {
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    .ctc-h1-heading {
+        font-size: 1.25em;
+    }
+
+    .ctc-description {
+        font-size: 1.15em;
+    }
+
+    .ctc-form-label {
+        font-size: 1.05em;
+    }
+
+    .ctc-button {
+        font-size: 1.2em;
+    }
+
+    .ctc-developer-note {
+        font-size: 0.9em;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    .ctc-card {
+        padding-top: 1.25em;
+        padding-bottom: 1.25em;
+    }
+
+    .ctc-h1-heading {
+        font-size: 1.3em;
+    }
+
+    .ctc-description {
+        font-size: 1.2em;
+    }
+
+    .ctc-form-label {
+        font-size: 1.1em;
+    }
+
+    .ctc-button {
+        font-size: 1.2em;
+    }
+
+    .ctc-developer-note {
+        font-size: 1em;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+
+    .ctc-card {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+    }
+
+    .ctc-h1-heading {
+        font-size: 1.3em;
+    }
+
+    .ctc-description {
+        font-size: 1em;
+    }
+
+    .ctc-form-label {
+        font-size: 1em;
+    }
+
+    .ctc-button {
+        width: 10em;
+        font-size: 1em;
+    }
+
+    .ctc-developer-note {
+        font-size: 0.8em;
+    }
+}

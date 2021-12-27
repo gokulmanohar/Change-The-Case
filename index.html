@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change The Case</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script type="application/javascript" src="js/main.js"></script>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="site-settings/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="site-settings/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="site-settings/favicon-16x16.png">
+    <link rel="manifest" href="site-settings/site.webmanifest">
+    <link rel="mask-icon" href="site-settings/safari-pinned-tab.svg" color="#d67e66">
+    <link rel="shortcut icon" href="site-settings/favicon.ico">
+    <meta name="msapplication-TileColor" content="#d67e66">
+    <meta name="msapplication-config" content="site-settings/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+
+</head>
+
+<body>
+    <div class="ctc-card">
+        <div class="ctc-h1-heading">
+            <h1>Change The Case</h1>
+        </div>
+        <div>
+        </div>
+        <header class="ctc-description">
+            <span>A simple case converter</span>
+        </header>
+        <div class="ctc-form">
+            <form id="ctc-main-form">
+                <label class="ctc-form-label" for="ctc-main-text-area">Text area</label>
+                <div class="ctc-form-text-area">
+                    <textarea id="ctc-main-text-area" autofocus></textarea>
+                </div>
+                <div class="ctc-button-layout">
+                    <button type='button' class="ctc-button" onclick="upper_case()">UPPER CASE</button>
+                    <button type='button' class="ctc-button" onclick="lower_case()">lower case</button>
+                    <button type='button' class="ctc-button" onclick="title_case()">Title Case</button>
+                    <button type='reset' class="ctc-button clear-button">Clear</button>
+                    <button type='button' class="ctc-button copy-button" onclick="clipboard_copy()">Copy</button>
+                </div>
+            </form>
+        </div>
+        <div class="ctc-developer-note">
+            <p><a href="https://convertcase.net/">Advanced</a></p>
+            <p>by <span><a href="https://github.com/gokulmanohar">gokulmanohar</a></span></p>
+        </div>
+    </div>
+</body>
+
+</html>

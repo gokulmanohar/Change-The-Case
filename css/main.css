@@ -1,0 +1,140 @@
+:root {
+    --background-color: #010001;
+    --card-color: #191a1d;
+    --text-area-color: #313339;
+    --primary-text-color: #ffffff;
+    --secondary-text-color: #b8e0de;
+    --secondary-text-hover-color: #75b6b3;
+    --primary-accent-color: #ff997d;
+    --accent-hover-color: #d3816a;
+    --accent-text-color: #000000;
+    --vertical-line-color: #a5a5a5;
+    --copy-button-color: #75b6b3;
+    --copy-button-hover-color: #6a9e9b;
+    --main-font: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--background-color);
+    margin: 1.5em;
+}
+
+.ctc-card {
+    background-color: var(--card-color);
+    padding-left: 2em;
+    padding-right: 2em;
+    /* padding-top: 0.5em;
+    padding-bottom: 0.5em; */
+    border-radius: 10px;
+}
+
+.ctc-h1-heading {
+    color: var(--primary-text-color);
+    text-align: center;
+    font-family: var(--main-font);
+    /* font-size: 1.3em; */
+}
+
+.ctc-description {
+    text-align: center;
+    color: var(--secondary-text-color);
+    font-family: var(--main-font);
+    /* font-size: 1em; */
+}
+
+.ctc-description-link {
+    text-decoration: none;
+}
+
+a {
+    font-family: var(--main-font);
+    color: var(--secondary-text-color);
+}
+
+a:hover {
+    color: var(--secondary-text-hover-color);
+}
+
+.ctc-form {
+    margin-top: 1em;
+}
+
+.ctc-form-label {
+    color: var(--secondary-text-color);
+    /* font-size: 1em; */
+    font-family: var(--main-font);
+}
+
+.ctc-form-text-area {
+    text-align: center;
+}
+
+#ctc-main-text-area {
+    width: 95%;
+    height: 40vh;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-family: var(--main-font);
+    font-size: 0.8em;
+    background-color: var(--text-area-color);
+    color: var(--primary-text-color);
+    border: 5px solid var(--primary-accent-color);
+    border-radius: 4px;
+    padding: 0.5em;
+}
+
+#ctc-main-text-area:focus {
+    outline: none;
+}
+
+.ctc-button-layout {
+    text-align: center;
+    margin: 0.5em;
+}
+
+.ctc-button {
+    margin: 0.5em;
+    background-color: var(--primary-accent-color);
+    border: none;
+    border-radius: 4px;
+    color: var(--accent-text-color);
+    width: 7em;
+    padding: 0.3em;
+    text-align: center;
+    /* font-size: 1em; */
+    font-family: var(--main-font);
+    cursor: pointer;
+}
+
+.ctc-button:hover {
+    background-color: var(--accent-hover-color);
+}
+
+.clear-button {
+    background-color: transparent;
+    border: 2px solid var(--primary-accent-color);
+    color: var(--primary-text-color);
+}
+
+.clear-button:hover {
+    background-color: transparent;
+    border: 2px solid var(--accent-hover-color);
+}
+
+.copy-button {
+    background-color: var(--copy-button-color);
+    color: var(--accent-text-color);
+}
+
+.copy-button:hover {
+    background-color: var(--copy-button-hover-color);
+}
+
+.ctc-developer-note {
+    display: flex;
+    margin: 0.5em;
+    color: var(--primary-text-color);
+    font-family: var(--main-font);
+    /* font-size: 0.8em; */
+    justify-content: space-between;
+}
